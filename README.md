@@ -59,7 +59,11 @@ Exemplo de retorno dos elementos de um modelo:
 ```
 
 ## Persistência
-Para a persistência dos dados, foi utilizado o banco NoSQL Mongodb. Uma collection no mongodb representa um modelo de dados que o usuário criou. As configurações e os elementos, são atributos desta collection. Não utilizei o conceito de vários usuários por se tratar apenas de um teste.
+Para a persistência dos dados, foi utilizado o banco NoSQL Mongodb. 
+
+Por ser uma aplicação cujo o usuário pode criar modelos, sem um número de atributos definido, acho que a saída natural foi utilizar um banco de dados NoSQL, justamente por não se prender à um modelo de dados específico.
+
+Uma collection no mongodb representa um modelo de dados que o usuário criou. As configurações e os elementos, são atributos do único documento presente nesta collection. Não utilizei o conceito de vários usuários por se tratar apenas de um teste.
 
 ## Build
 ```
