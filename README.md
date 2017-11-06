@@ -14,13 +14,13 @@ O projeto foi desenvolvido usando as tecnologias:
 Foi desenvolvida uma API genérica para fazer as operações de CRUD sobre um modelo. 
 
 ```
-http://localhost:8080/model/create POST Cria um modelo de domínio
-http://localhost:8080/<modelo>/ POST cadastra um novo elemento no modelo
-http://localhost:8080/<modelo>/<id> PUT atualiza um elemento no modelo de acordo com o seu id
-http://localhost:8080/<modelo>/<id> DELETE um dos elementos cadastrados no modelo de acordo com o id
-http://localhost:8080/<modelo>/ GET retorna as configuraçes e os elementos cadastrados em um modelo
-http://localhost:8080/<modelo>/<id> GET retorna as configuraçes e o elemento cadastrado em um modelo
-http://localhost:8080/<modelo>/ GET retorna as configuraçes e os elementos cadastrados em um modelo
+http://localhost:8080/api/model/create POST Cria um modelo de domínio
+http://localhost:8080/api/<modelo>/ POST cadastra um novo elemento no modelo
+http://localhost:8080/api/<modelo>/<id> PUT atualiza um elemento no modelo de acordo com o seu id
+http://localhost:8080/api/<modelo>/<id> DELETE um dos elementos cadastrados no modelo de acordo com o id
+http://localhost:8080/api/<modelo>/ GET retorna as configuraçes e os elementos cadastrados em um modelo
+http://localhost:8080/api/<modelo>/<id> GET retorna as configuraçes e o elemento cadastrado em um modelo
+http://localhost:8080/api/<modelo>/ GET retorna as configuraçes e os elementos cadastrados em um modelo
 ```
 
 Exemplo de um body json para criação de um modelo: 
